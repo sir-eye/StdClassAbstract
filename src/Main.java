@@ -5,11 +5,11 @@ public class Main {
         Student student1 = new Student("Alice", "Johnson", 20,"Computer Science");
         Student student2 = new Student("Bob", "Smith", 22,"Mathematics");
 
-        System.out.println("\nstudent1");
+        System.out.println("\nStudent 1:");
         student1.displayDetails();
         student1.describeStudy();
 
-        System.out.println("\nstudent2");
+        System.out.println("\nStudent 2:");
         student2.displayDetails();
         student2.describeStudy();
     }
