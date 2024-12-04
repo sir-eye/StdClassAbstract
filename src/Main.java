@@ -8,8 +8,8 @@ public class Main {
         System.out.println("\nstudent1");
         student1.displayDetails();
         student1.describeStudy();
-        System.out.println("\n");
-        System.out.println("student2");
+
+        System.out.println("\nstudent2");
         student2.displayDetails();
         student2.describeStudy();
     }
