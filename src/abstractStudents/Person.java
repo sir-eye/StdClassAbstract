@@ -5,14 +5,12 @@ public abstract class Person {
     protected String lastName;
     protected int age;
 
-//    Constructor
+    //Constructor
     public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-
     }
-
     //Concrete method
     public String getFirstName() {
         return firstName;
